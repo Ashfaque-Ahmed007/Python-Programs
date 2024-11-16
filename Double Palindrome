@@ -1,0 +1,14 @@
+#it will print ever number which stisfies double palindrome under the range of given no. n
+def palindrome(n):
+    if str(n)[::]==str(n)[::-1]:
+        if str(n**2)[::]==str(n**2)[::-1]:
+
+return(1)
+        else:
+            pass
+    else:
+        pass
+num=int(input()) 
+for i in range(1,num+1):
+    if palindrome(i)==1:
+        print(i) 
